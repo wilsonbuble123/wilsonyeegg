@@ -1,0 +1,48 @@
+*{box-sizing: border-box;}
+.container{
+    width:100%;
+    background-color: #FFE4B5;
+}
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+.html{width:75%;background-color: 	#00DD77;}
+.css{width:70%;background-color: 	#888888;}
+.js{width:65%;background-color: 	#FFAA33;}
+.c{width:70%;background-color: #33CCFF;}
+body{
+    border:2px solid;
+    padding: 50px;
+    width:1000px;
+    resize:both;
+    overflow: auto;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule-style:dotted;
+    column-rule-color: #008080;
+    margin-left: 250px;
+    background-color: #FFE4B5;
+    
+}
+.motto{
+    font-style: italic;
+}
+.title
+{
+    text-align: center;
+    color:	#696969;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+}
+.a
+{
+    -webkit-column-break-before: always;
+}
+.d{
+    font-size: 20px;
+    font-weight: bold;
+}
